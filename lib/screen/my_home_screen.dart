@@ -1,3 +1,5 @@
+import 'package:bike_rent_app/screen/Bike%20Details/bike_details.dart';
+import 'package:bike_rent_app/screen/Check%20Out/check_out_screen.dart';
 import 'package:bike_rent_app/screen/home/home_screen.dart';
 import 'package:bike_rent_app/screen/map/map_screen.dart';
 import 'package:bike_rent_app/screen/setting/setting_screen.dart';
@@ -15,7 +17,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _widgetOptions = <Widget>[
-    const HomeScreen(),
+    const CheckoutScreen(),
     const MapScreen(),
     const WalletScreen(),
     const SettingsScreen(),

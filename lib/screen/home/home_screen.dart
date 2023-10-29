@@ -12,7 +12,6 @@ class HomeScreen extends StatelessWidget {
     return SafeArea(
         child: SingleChildScrollView(
       child: SizedBox(
-        height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         child: Column(
           children: [

@@ -29,8 +29,9 @@ class BikeCard extends StatelessWidget {
             width: 143,
             height: 140,
             decoration: BoxDecoration(
-                borderRadius:
-                    const BorderRadius.only(topRight: Radius.circular(10)),
+                borderRadius: const BorderRadius.only(
+                    topRight: Radius.circular(10),
+                    topLeft: Radius.circular(10)),
                 image: DecorationImage(
                     image: AssetImage(imgUrl), fit: BoxFit.cover)),
           ),
