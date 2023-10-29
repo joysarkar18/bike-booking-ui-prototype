@@ -1,9 +1,7 @@
 import 'package:bike_rent_app/screen/Bike%20Details/bike_details.dart';
 import 'package:bike_rent_app/screen/Check%20Out/check_out_screen.dart';
 import 'package:bike_rent_app/screen/home/home_screen.dart';
-import 'package:bike_rent_app/screen/map/map_screen.dart';
 import 'package:bike_rent_app/screen/setting/setting_screen.dart';
-import 'package:bike_rent_app/screen/wallet/wallet_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyHomeScreen extends StatefulWidget {
@@ -17,9 +15,9 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _widgetOptions = <Widget>[
+    const HomeScreen(),
+    const BikeDetailsScreen(),
     const CheckoutScreen(),
-    const MapScreen(),
-    const WalletScreen(),
     const SettingsScreen(),
   ];
 
@@ -60,7 +58,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.black,
-        backgroundColor: const Color(0xffe5e5e5db),
+        backgroundColor: const Color(0xffe5e5e5),
         onTap: _onItemTapped,
       ),
     );

@@ -15,7 +15,7 @@ class RecenntCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 10),
+      margin: const EdgeInsets.only(top: 10),
       clipBehavior: Clip.hardEdge,
       height: 59,
       width: MediaQuery.of(context).size.width,

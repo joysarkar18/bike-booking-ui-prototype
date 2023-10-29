@@ -16,7 +16,7 @@ class OptionContainer extends StatelessWidget {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: selectedOrNot ? Colors.black : Colors.transparent,
-          border: Border.all(color: Color(0xffBABABA), width: 2)),
+          border: Border.all(color: const Color(0xffBABABA), width: 2)),
       child: Center(
           child: Text(
         txt,

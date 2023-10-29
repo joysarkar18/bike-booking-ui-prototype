@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            BikeList(),
+            const BikeList(),
             const Padding(
               padding: EdgeInsets.only(left: 16, top: 26),
               child: Row(
